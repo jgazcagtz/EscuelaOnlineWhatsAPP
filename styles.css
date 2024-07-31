@@ -1,0 +1,140 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #000; /* Color negro */
+    color: #FFD700; /* Color amarillo */
+    padding: 10px 0;
+    position: relative;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #FFD700; /* Color amarillo */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-menu {
+    color: #FFD700; /* Color amarillo */
+}
+
+.whatsapp-button {
+    position: absolute;
+    bottom: -40px; /* Ajustar según necesidad */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #FFD700; /* Color amarillo */
+    color: #000; /* Color negro */
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px; /* Redondeado más suave */
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: #FFC107; /* Amarillo más oscuro en hover */
+    color: #000; /* Color negro */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: translateX(-50%) translateY(-3px); /* Efecto de levantamiento */
+}
+
+.hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #FFD700; /* Color amarillo */
+    color: #000; /* Color negro */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #FFC107; /* Amarillo más oscuro en hover */
+    color: #000; /* Color negro */
+}
+
+.courses, .about {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.courses h2, .about h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.course-item {
+    margin: 20px 0;
+}
+
+.dynamic-button {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dynamic-button .btn {
+    background-color: #FFD700; /* Color amarillo */
+    color: #000; /* Color negro */
+}
+
+.dynamic-button .btn:hover {
+    background-color: #FFC107; /* Amarillo más oscuro en hover */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
